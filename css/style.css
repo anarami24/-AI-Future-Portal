@@ -14,12 +14,6 @@ body {
   line-height: 1.5;
 }
 
-section {
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-
 p {
     text-align: justify;
 }
@@ -34,8 +28,8 @@ p {
 
 #main-header h1{
     font-family: 'Orbitron', sans-serif;
-    font-size:2.5 rem;
-    margin-bottom:1 rem;
+    font-size:2.5rem;
+    margin-bottom:16px;
 }
 
 #main-header p{
@@ -80,7 +74,7 @@ nav ul li a:active {
 /*CONTAINER*/
 .container{
     max-width: 900px;
-    text-align: center;
+    margin: 0 auto;
     padding: 0 16px;
 }
 
@@ -109,6 +103,7 @@ h3 {
     border-left: 4px solid #379bff;
     padding:16px;
     margin-top: 16px;
+    text-align: justify;
     font-style: italic;
 }
 
